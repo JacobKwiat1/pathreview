@@ -48,7 +48,7 @@ I will be implementing a change to the phone_us regex in pii_scrubber.py to fix 
 
 ### Check-in 2 (end of week)
 
-**PR link:** [link to your submitted pull request]
+**PR link:** https://github.com/ascherj/pathreview/pull/517
 
 **Branch:** https://github.com/JacobKwiat1/pathreview/tree/fix/146-parenthesized-us-phone-number-redaction
 
