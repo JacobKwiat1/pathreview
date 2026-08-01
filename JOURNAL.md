@@ -29,3 +29,36 @@ I ran the pytests for pii_scrubber and observed that formats using parentheses d
 **PLAN.md link:** https://github.com/JacobKwiat1/pathreview/blob/fix/146-parenthesized-us-phone-number-redaction/PLAN.md
 
 **Blockers or open questions:**
+
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I have not had the chance to make any changes yet this week.
+
+**Next steps:**
+I will be implementing a change to the phone_us regex in pii_scrubber.py to fix the issue
+
+**Blockers:**
+
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [link to your submitted pull request]
+
+**Branch:** https://github.com/JacobKwiat1/pathreview/tree/fix/146-parenthesized-us-phone-number-redaction
+
+**What you built:**
+My fix was a change to the phone_us pattern in pii_scrubber.py. I added a space to the character set [-.] which was not detecting spaces between numbers and misaligning space and parthesized phone formats from the pattern.
+
+**Tests added or updated:**
+The only change I made was to the phone_us pattern in pii_scrubber. I did not change any tests because there was already sufficient tests to determine if the code works.
+
+**Self-review confirmation:** [X] make check passes  [X] make test-unit passes
+note: there are two ruff failures, but neither failure is related to the code that I changed.
+
+**Draft PR feedback received from:** none
