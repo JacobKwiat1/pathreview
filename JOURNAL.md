@@ -62,3 +62,34 @@ The only change I made was to the phone_us pattern in pii_scrubber. I did not ch
 note: there are two ruff failures, but neither failure is related to the code that I changed.
 
 **Draft PR feedback received from:** none
+
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+I did not receive PR feedback
+
+**How you responded:**
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+I was surprised how the in taking steps to resolve the issue I managed to break other things. For example, when I changed the regex string at first I accidentally broke phone numbers that used just spaces at first.
+
+**What did you learn about working in a large codebase?**
+Working in a large codebase involves plenty of code and rules that are not your own and you may understand. It is important to pay attention to the rules of the owner of the base as well as to do your due diligence in learning to understand the codebase you're working on.
+
+**How did AI tools help — and where did they fall short?**
+I did not use any AI tools in this module.
+
+**What would you do differently if you started over?**
+If I started over I would probably pick a more challenging issue. My issue was a good first issue but if I was going to do the same project again then I would want to have something more challenging. I would also make sure to run more tests before each commit so I wouldn't find issues after commiting to the code base again.
+
+**What are you most proud of from this module?**
+The thing I am most proud of is managing to decipher and then edit the regex string to fix the bug. I usually struggle with regex so it was a proud moment for me to be able to handle it for this project.
